@@ -166,20 +166,7 @@
             text-align: center;
         
 		}
-		@media screen and (min-width: 768px) {
-
-			.content {
-				
-				float: none;
-				width: 100%;
-				margin-right: 0;
-			}
-			.body-btn-front,.body-btn-back {
-			position: absolute;
-			top: 540px;
-			left: 20%;
-		}
-		}
+		
 		@media screen and (max-width: 1280px) {
 
 			.content {
@@ -195,9 +182,9 @@
 			}
 			.header .header-btn-front,
 			.header-btn-back {
-			position: absolute;
-			top: 75%;
-			left: 32%;
+				position: absolute;
+				top: 75%;
+				left: 36%;
 			}
 		}
 			
