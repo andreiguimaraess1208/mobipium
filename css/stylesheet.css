@@ -173,18 +173,21 @@
 				
 				float: none;
 				width: 100%;
-				margin-right: 0;
 			}
 			.body-btn-front,.body-btn-back {
 				position: absolute;
+				width:100%;
+				height:auto;
 				top: 540px;
 				left: 32%;
 			}
 			.header .header-btn-front,
 			.header-btn-back {
 				position: absolute;
-				top: 75%;
-				left: 36%;
+				left: 35%;
+			}
+			.header-text .header-mid-text {
+				font-size: 40px;
 			}
 		}
 			
