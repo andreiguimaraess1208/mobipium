@@ -225,7 +225,7 @@
 				height: 41px;
 				position: absolute;
 				top: 540px;
-				left: 35%;
+				left: 36%;
 			}
 			.header-btn-front,
 			.header-btn-back {
@@ -255,6 +255,17 @@
 			}
 			.content-text .content-mid-btm-text {
 				font-size: 22px;
+			}
+			.content .keychain-img-1 {
+				left: 55%;
+			}
+	
+			.content .keychain-img-2 {
+				left: 40%;
+			}
+	
+			.content .keychain-img-3 {
+				left: 25%;
 			}
 
 		}
