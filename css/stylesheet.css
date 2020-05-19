@@ -193,11 +193,19 @@
 				top: 540px;
 				left: 32%;
 			}
+			.header .header-btn-front,
+			.header-btn-back {
+			position: absolute;
+			top: 75%;
+			left: 32%;
+			}
 		}
+			
 
 		@media screen and (max-width: 700px) {
 
 			.content {
+				display:none;
 				float: none;
 				width: 100%;
 				margin-right: 0;
