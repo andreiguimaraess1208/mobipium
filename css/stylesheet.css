@@ -179,9 +179,10 @@
 			}
 			.header-btn-front,
 			.header-btn-back {
-				max-width: 80%;
-				height: auto;
+
 				position: absolute;
+				max-width: 50%;
+				height: auto;
 				left: 35%;
 				
 			}
