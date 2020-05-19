@@ -175,8 +175,6 @@
 			}
 			.body-btn-front,.body-btn-back {
 				position: absolute;
-				width:100%;
-				height:auto;
 				top: 540px;
 				left: 32%;
 			}
@@ -184,8 +182,7 @@
 			.header-btn-back {
 				position: absolute;
 				left: 35%;
-				width:100%;
-				height:auto;
+				
 			}
 			.header-mid-text {
 				font-size: 35px;
