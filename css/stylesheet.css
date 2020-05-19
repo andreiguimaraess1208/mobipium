@@ -1,0 +1,176 @@
+		html{
+			height: 100%;
+			overflow-x: hidden;
+		}
+		body,html {
+			margin: 0;
+            padding: 0;
+			position: relative;
+		}
+
+		.main {
+			max-width: 1300px;
+			margin: 0 auto;
+			position: relative;
+		}
+
+		.header {
+			position: relative;
+			width: 100%;
+			background: rgb(255, 255, 255);
+		}
+
+		.header .header-img {
+			width: 100%;
+		}
+
+		.header .header-btn-front,
+		.header-btn-back {
+			position: absolute;
+			top: 75%;
+			left: 38%;
+		}
+
+		.header .header-btn-front:hover {
+			opacity: 0%;
+		}
+
+		.header-text .header-top-text {
+			text-shadow: 1px 1px #000000;
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight: bold;
+			position: absolute;
+			width: 100%;
+			top: 10%;
+			text-align: center;
+			color: white;
+			font-size: 30px;
+		}
+
+		.header-text .header-mid-text {
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-weight: bold;
+			position: absolute;
+			color: white;
+			font-size: 50px;
+			width: 100%;
+			top: 27%;
+			text-align: center;
+
+		}
+
+		.header-text .header-mid-btm-text {
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-weight: bold;
+			position: absolute;
+			color: white;
+			font-size: 55px;
+			width: 100%;
+			top: 37%;
+			text-align: center;
+		}
+
+		.header-text .header-btm-text {
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			position: absolute;
+			color: #88FEA7;
+			font-size: 35px;
+			width: 25%;
+			left: 37%;
+			top: 54%;
+			text-align: center;
+		}
+
+		.content {
+			position: relative;
+            height: 100%;
+            width:100%;
+
+		}
+
+		.content .keychain-img-1 {
+			position: absolute;
+			top: 120px;
+			left: 60%;
+		}
+
+		.content .keychain-img-2 {
+			position: absolute;
+			left: 45%;
+			top: 117px;
+		}
+
+		.content .keychain-img-3 {
+			position: absolute;
+			left: 30%;
+			top: 123px;
+		}
+
+		.content-top-text {
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-weight: bold;
+			position: absolute;
+			color: #000000;
+			font-size: 23px;
+			width: 100%;
+			top: 60px;
+			text-align: center;
+        }
+        .content-mid-text {
+           
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			position: absolute;
+			color: #000000;
+			font-size: 31px;
+			width: 100%;
+			top: 420px;
+			text-align: center;
+        }
+        .content-mid-btm-text {
+            font-weight: bold;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			position: absolute;
+			color: #000000;
+			font-size: 35px;
+			width: 100%;
+			top: 468px;
+			text-align: center;
+        }
+        
+        .body-btn-front,
+		.body-btn-back {
+			position: absolute;
+			top: 540px;
+			left: 36%;
+		}
+
+		.body-btn-front:hover {
+			opacity: 0%;
+		}
+
+		.footer {
+			position: relative;
+			width: 100%;
+			background: rgb(255, 255, 255);
+        }
+        .copyright{
+            position: absolute;
+            padding: 10px 0px 35px 0px;
+            font-size: medium;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: lightgray;
+            opacity: 70%;
+            width: 100%;
+            top:650px;
+            text-align: center;
+        
+        }
+
+		@media screen and (max-width: 700px) {
+
+			.content {
+				float: none;
+				width: 100%;
+				margin-right: 0;
+			}
+		}
