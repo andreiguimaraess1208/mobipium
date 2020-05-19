@@ -1,5 +1,4 @@
 		html{
-			height: 100%;
 			overflow-x: hidden;
 		}
 		body,html {
@@ -180,6 +179,8 @@
 			}
 			.header-btn-front,
 			.header-btn-back {
+				width:100%;
+				height:auto;
 				position: absolute;
 				left: 35%;
 				
