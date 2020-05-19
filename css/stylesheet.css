@@ -177,7 +177,53 @@
 				height: 51px;
 				position: absolute;
 				top: 540px;
-				left: 34%;
+				left: 35%;
+			}
+			.header-btn-front,
+			.header-btn-back {
+				width: 245px;
+				height: 47px;
+				position: absolute;
+				left: 37%;
+				
+			}
+			.header-text .header-mid-text {
+				font-size: 40px;
+			}
+			.header-text .header-top-text {
+				font-size: 24px;
+			}
+			.header-text .header-mid-btm-text{
+				font-size: 44px;
+			}
+			.header-text .header-btm-text{
+				font-size: 28px;
+			}
+			.content-text .content-top-text {
+				font-size: 18px;
+			}
+			.content-text .content-mid-text {
+				font-size: 25px;
+			}
+			.content-text .content-mid-btm-text {
+				font-size: 28px;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) and (orientation: portrait) {
+		
+			.content {
+				display:none;
+				float: none;
+				width: 100%;
+			}
+			.body-btn-front,.body-btn-back {
+				width: 298px;
+				height: 51px;
+				position: absolute;
+				top: 540px;
+				left: 35%;
 			}
 			.header-btn-front,
 			.header-btn-back {
