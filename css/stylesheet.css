@@ -164,7 +164,9 @@
             text-align: center;
         
 		}
-		
+
+										/*SCREEN ADJUSTS*/		
+
 		@media screen and (max-width: 1280px) and (orientation: landscape) {
 		
 			.content {
@@ -214,45 +216,45 @@
 		@media screen and (max-width: 1280px) and (orientation: portrait) {
 		
 			.content {
-				display:none;
+				
 				float: none;
 				width: 100%;
 			}
 			.body-btn-front,.body-btn-back {
-				width: 298px;
-				height: 51px;
+				width: 245px;
+				height: 47px;
 				position: absolute;
 				top: 540px;
 				left: 35%;
 			}
 			.header-btn-front,
 			.header-btn-back {
-				width: 245px;
-				height: 47px;
+				width: 215px;
+				height: 41px;
 				position: absolute;
 				left: 37%;
 				
 			}
 			.header-text .header-mid-text {
-				font-size: 40px;
+				font-size: 36px;
 			}
 			.header-text .header-top-text {
-				font-size: 24px;
+				font-size: 22px;
 			}
 			.header-text .header-mid-btm-text{
-				font-size: 44px;
+				font-size: 40px;
 			}
 			.header-text .header-btm-text{
-				font-size: 28px;
-			}
-			.content-text .content-top-text {
-				font-size: 18px;
-			}
-			.content-text .content-mid-text {
 				font-size: 25px;
 			}
+			.content-text .content-top-text {
+				font-size: 16px;
+			}
+			.content-text .content-mid-text {
+				font-size: 22px;
+			}
 			.content-text .content-mid-btm-text {
-				font-size: 28px;
+				font-size: 25px;
 			}
 
 		}
