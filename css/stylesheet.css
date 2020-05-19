@@ -275,9 +275,11 @@
 			
 
 		@media screen and (max-width: 700px) {
-
+			.main{
+				overflow-x: hidden;
+			}
 			.content {
-				
+				overflow-x: hidden;
 				float: none;
 				width: 100%;
 			}
@@ -322,7 +324,7 @@
 			}
 			.content .keychain-img-1 {
 				top:100px;
-				left: 62%;
+				left: 61%;
 			}
 			.content .keychain-img-2 {
 				top:93px;
