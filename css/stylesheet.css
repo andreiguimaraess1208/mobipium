@@ -105,7 +105,7 @@
 			top: 123px;
 		}
 
-		.content-top-text {
+		.content-text .content-top-text {
 			font-family: Verdana, Geneva, Tahoma, sans-serif;
 			font-weight: bold;
 			position: absolute;
@@ -115,7 +115,7 @@
 			top: 60px;
 			text-align: center;
         }
-        .content-mid-text {
+        .content-text .content-mid-text {
            
 			font-family: Verdana, Geneva, Tahoma, sans-serif;
 			position: absolute;
@@ -125,7 +125,7 @@
 			top: 420px;
 			text-align: center;
         }
-        .content-mid-btm-text {
+        .content-text .content-mid-btm-text {
             font-weight: bold;
 			font-family: Verdana, Geneva, Tahoma, sans-serif;
 			position: absolute;
@@ -173,16 +173,18 @@
 				width: 100%;
 			}
 			.body-btn-front,.body-btn-back {
+				width: 298px;
+				height: 51px;
 				position: absolute;
 				top: 540px;
 				left: 32%;
 			}
 			.header-btn-front,
 			.header-btn-back {
-				width:245px;
-				height:47px;
+				width: 245px;
+				height: 47px;
 				position: absolute;
-				left: 35%;
+				left: 37%;
 				
 			}
 			.header-text .header-mid-text {
@@ -195,6 +197,15 @@
 				font-size: 44px;
 			}
 			.header-text .header-btm-text{
+				font-size: 28px;
+			}
+			.content-text .content-top-text {
+				font-size: 18px;
+			}
+			.content-text .content-mid-text {
+				font-size: 25px;
+			}
+			.content-text .content-mid-btm-text {
 				font-size: 28px;
 			}
 
