@@ -182,12 +182,23 @@
 			.header-btn-back {
 				position: absolute;
 				left: 35%;
+				width: 80%;
+				height: 80%;
 				
 			}
 			.header-text .header-mid-text {
 				font-size: 40px;
-			
 			}
+			.header-text .header-top-text {
+				font-size: 24px;
+			}
+			.header-text .header-mid-btm-text{
+				font-size: 44px;
+			}
+			.header-text .header-btm-text{
+				font-size: 28px;
+			}
+
 		}
 			
 
