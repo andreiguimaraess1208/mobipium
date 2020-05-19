@@ -184,8 +184,9 @@
 				left: 35%;
 				
 			}
-			.header-mid-text {
-				font-size: 35px;
+			.header-text .header-mid-text {
+				font-size: 40px;
+			
 			}
 		}
 			
