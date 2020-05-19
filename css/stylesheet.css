@@ -310,23 +310,27 @@
 			}
 			.content-text .content-top-text {
 				font-size: 10px;
+				top:40px;
 			}
 			.content-text .content-mid-text {
 				font-size: 13px;
+				top:300px;
 			}
 			.content-text .content-mid-btm-text {
 				font-size: 15px;
+				top:330px;
 			}
 			.content .keychain-img-1 {
-				left: 50%;
+				left: 45%;
 			}
 			.content .keychain-img-2 {
-				left: 35%;
+				left: 30%;
 			}
 			.content .keychain-img-3 {
-				left: 20%;
+				left: 10%;
 			}
 			.copyright{
 				font-size: x-small;
+				top: 600px;
 			}
 		}
