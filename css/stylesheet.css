@@ -24,8 +24,7 @@
 			width: 100%;
 		}
 
-		.header .header-btn-front,
-		.header-btn-back {
+		.header-btn-front, .header-btn-back {
 			position: absolute;
 			top: 75%;
 			left: 38%;
@@ -167,7 +166,7 @@
         
 		}
 		
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1000px) {
 
 			.content {
 				
@@ -181,13 +180,15 @@
 				top: 540px;
 				left: 32%;
 			}
-			.header .header-btn-front,
+			.header-btn-front,
 			.header-btn-back {
 				position: absolute;
 				left: 35%;
+				width:100%;
+				height:auto;
 			}
-			.header-text .header-mid-text {
-				font-size: 40px;
+			.header-mid-text {
+				font-size: 35px;
 			}
 		}
 			
