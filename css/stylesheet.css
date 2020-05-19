@@ -273,13 +273,12 @@
 
 		}
 			
-
 		@media screen and (max-width: 700px) {
 			.main{
-				overflow-x: hidden;
+				
 			}
 			.content {
-				overflow-x: hidden;
+				
 				float: none;
 				width: 100%;
 			}
