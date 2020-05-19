@@ -210,7 +210,9 @@
 			.content-text .content-mid-btm-text {
 				font-size: 28px;
 			}
-
+			.copyright{
+				font-size: small;
+			}
 		}
 
 		@media screen and (max-width: 1280px) and (orientation: portrait) {
@@ -264,6 +266,9 @@
 			}
 			.content .keychain-img-3 {
 				left: 26%;
+			}
+			.copyright{
+				font-size: small;
 			}
 
 		}
