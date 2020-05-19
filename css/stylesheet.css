@@ -166,9 +166,7 @@
 		}
 		
 		@media screen and (max-width: 1280px) {
-			.header{
-				width: auto;
-			}
+		
 			.content {
 				
 				float: none;
@@ -181,11 +179,9 @@
 			}
 			.header-btn-front,
 			.header-btn-back {
-
+				width:245px;
+				height:47px;
 				position: absolute;
-				max-width: 100%;
-				width: auto;
-				height: auto;
 				left: 35%;
 				
 			}
