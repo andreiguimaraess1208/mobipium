@@ -183,3 +183,12 @@
 				margin-right: 0;
 			}
 		}
+		@media screen and (min-width: 1500px) {
+
+			.content {
+				display:none;
+				float: none;
+				width: 100%;
+				margin-right: 0;
+			}
+		}
