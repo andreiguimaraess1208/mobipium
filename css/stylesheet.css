@@ -221,18 +221,18 @@
 				width: 100%;
 			}
 			.body-btn-front,.body-btn-back {
-				width: 245px;
-				height: 47px;
-				position: absolute;
-				top: 540px;
-				left: 35%;
-			}
-			.header-btn-front,
-			.header-btn-back {
 				width: 215px;
 				height: 41px;
 				position: absolute;
-				left: 37%;
+				top: 540px;
+				left: 34%;
+			}
+			.header-btn-front,
+			.header-btn-back {
+				width: 188px;
+				height: 36px;
+				position: absolute;
+				left: 36%;
 				
 			}
 			.header-text .header-mid-text {
@@ -245,7 +245,7 @@
 				font-size: 40px;
 			}
 			.header-text .header-btm-text{
-				font-size: 25px;
+				font-size: 24px;
 			}
 			.content-text .content-top-text {
 				font-size: 16px;
