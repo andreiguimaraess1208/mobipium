@@ -351,14 +351,14 @@
 				height: 36px;
 				position: absolute;
 				top: 385px;
-				left: 37%;
+				left: 39%;
 			}
 			.header-btn-front,
 			.header-btn-back {
 				width: 149px;
 				height: 26px;
 				position: absolute;
-				left: 39%;
+				left: 41%;
 				
 			}
 			.header-text .header-mid-text {
@@ -373,7 +373,7 @@
 			.header-text .header-btm-text{
 				font-size: 14px;
 				width:20%;
-				left:37%;
+				left:36%;
 			}
 			.content-text .content-top-text {
 				font-size: 12px;
