@@ -80,7 +80,6 @@
 		.content {
 			
 			position: relative;
-            height: 100%;
             width:100%;
 
 		}
@@ -284,7 +283,7 @@
 @media screen and (max-width: 700px) and (orientation: portrait) {
 	*{
 		overflow-x: hidden;
-		overflow-y: scroll;
+		overflow-y: hidden;
 	}
 	.content {
 		float: none;
