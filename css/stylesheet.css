@@ -333,14 +333,17 @@
 	}
 	.content .keychain-img-1 {
 		top:100px;
+		margin-left:0px;
 		left: 61%;
 	}
 	.content .keychain-img-2 {
 		top:95px;
+		margin-left:0px;
 		left: 33%;
 	}
 	.content .keychain-img-3 {
 		top:103px;
+		margin-left:0px;
 		left: 3%;
 	}
 	.copyright{
