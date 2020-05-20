@@ -273,10 +273,8 @@
 
 		}
 			
-		@media screen and (max-width: 700px) and (orientation: portrait) {
-			body{
-				overflow-x: hidden;
-			}
+		@media screen and (max-width: 600px) and (orientation: portrait) {
+			
 			.content {
 				
 				float: none;
@@ -353,27 +351,28 @@
 				height: 36px;
 				position: absolute;
 				top: 385px;
-				left: 32%;
+				left: 38%;
 			}
 			.header-btn-front,
 			.header-btn-back {
 				width: 149px;
 				height: 26px;
 				position: absolute;
-				left: 36%;
+				left: 40%;
 				
 			}
 			.header-text .header-mid-text {
-				font-size: 20px;
+				font-size: 21px;
 			}
 			.header-text .header-top-text {
 				font-size: 13px;
 			}
 			.header-text .header-mid-btm-text{
-				font-size: 22px;
+				font-size: 23px;
 			}
 			.header-text .header-btm-text{
-				font-size: 12px;
+				font-size: 14px;
+				width: 20%;
 			}
 			.content-text .content-top-text {
 				font-size: 12px;
