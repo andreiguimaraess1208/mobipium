@@ -351,7 +351,7 @@
 				height: 36px;
 				position: absolute;
 				top: 385px;
-				left: 37%;
+				left: 36%;
 			}
 			.header-btn-front,
 			.header-btn-back {
@@ -362,18 +362,18 @@
 				
 			}
 			.header-text .header-mid-text {
-				font-size: 21px;
+				font-size: 22px;
 			}
 			.header-text .header-top-text {
 				font-size: 13px;
 			}
 			.header-text .header-mid-btm-text{
-				font-size: 23px;
+				font-size: 24px;
 			}
 			.header-text .header-btm-text{
 				font-size: 14px;
 				width:20%;
-				left:45%;
+				left:42%;
 			}
 			.content-text .content-top-text {
 				font-size: 12px;
