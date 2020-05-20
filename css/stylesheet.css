@@ -353,7 +353,7 @@
 
 @media screen and (max-width: 700px) and (orientation: landscape) {
 	main{
-		overflow:auto;
+		overflow:hidden;
 	}
 	.content {
 		
