@@ -9,7 +9,7 @@
 
 		.main {
 			/*max-width: 1300px;*/
-			margin: 0 auto;
+			margin: 0;
 			position: relative;
 		}
 
@@ -210,6 +210,17 @@
 			.content-text .content-mid-btm-text {
 				font-size: 28px;
 			}
+			.content .keychain-img-1 {
+				left: 59%;
+			}
+	
+			.content .keychain-img-2 {
+				left: 44%;
+			}
+	
+			.content .keychain-img-3 {
+				left: 29%;
+			}
 			.copyright{
 				font-size: small;
 			}
@@ -300,6 +311,7 @@
 			}
 			.header-text .header-mid-text {
 				font-size: 17px;
+				top:27%;
 			}
 			.header-text .header-top-text {
 				font-size: 11px;
