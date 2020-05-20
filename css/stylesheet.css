@@ -163,7 +163,8 @@
         
 		}
 
-										/*SCREEN ADJUSTS*/		
+										/*SCREEN ADJUSTS*/	
+
 @media screen and (max-width: 700px) and (orientation: portrait) {
 			
 			.content {
@@ -227,9 +228,9 @@
 				font-size: x-small;
 				top: 420px;
 			}
-		}
+}
 
-		@media screen and (max-width: 700px) and (orientation: landscape) {
+@media screen and (max-width: 700px) and (orientation: landscape) {
 		
 			.content {
 				overflow-x: hidden;
@@ -293,8 +294,8 @@
 				font-size: x-small;
 				top: 420px;
 			}
-		}
-		@media screen and (max-width: 1280px) and (orientation: landscape) {
+}
+@media screen and (max-width: 1280px) and (orientation: landscape) {
 		
 			.content {
 				
@@ -351,9 +352,10 @@
 			.copyright{
 				font-size: small;
 			}
-		}
+}
 
-		@media screen and (max-width: 1280px) and (orientation: portrait) {
+		
+@media screen and (max-width: 1280px) and (orientation: portrait) {
 		
 			.content {
 				
@@ -408,7 +410,6 @@
 			.copyright{
 				font-size: small;
 			}
-
-		}
+}
 			
 		
