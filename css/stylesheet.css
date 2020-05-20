@@ -14,7 +14,6 @@
 		.header {
 			position: relative;
 			width: 100%;
-			background: rgb(255, 255, 255);
 		}
 
 		.header .header-img {
@@ -352,7 +351,7 @@
 }
 
 @media screen and (max-width: 700px) and (orientation: landscape) {
-	html, body, main, content, footer{
+	html, body, main, content{
 		overflow-x:hidden;
 	}
 	.content {
