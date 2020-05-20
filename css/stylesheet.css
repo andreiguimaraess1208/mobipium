@@ -8,8 +8,6 @@
 		}
 
 		.main {
-			/*max-width: 1300px;*/
-			margin: 0;
 			position: relative;
 		}
 
@@ -186,7 +184,7 @@
 				width: 245px;
 				height: 47px;
 				position: absolute;
-				left: 37%;
+				left: 38%;
 				
 			}
 			.header-text .header-mid-text {
@@ -285,6 +283,9 @@
 		}
 			
 		@media screen and (max-width: 600px) and (orientation: portrait) {
+			html{
+				overflow-x: hidden;
+			}
 			body{
 				margin:0;
 				padding: 0;
