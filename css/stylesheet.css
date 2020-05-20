@@ -177,14 +177,14 @@
 				height: 51px;
 				position: absolute;
 				top: 540px;
-				left: 35%;
+				left: 36%;
 			}
 			.header-btn-front,
 			.header-btn-back {
 				width: 245px;
 				height: 47px;
 				position: absolute;
-				left: 38%;
+				left: 37.5%;
 				
 			}
 			.header-text .header-mid-text {
@@ -283,7 +283,7 @@
 		}
 			
 		@media screen and (max-width: 600px) and (orientation: portrait) {
-			html{
+			html,body{
 				overflow-x: hidden;
 			}
 			body{
@@ -353,9 +353,13 @@
 			}
 		}
 
-		@media screen and (max-width: 700px) and (orientation: landscape) {
-			body{
+		@media screen and (max-width: 600px) and (orientation: landscape) {
+			html,body{
 				overflow-x: hidden;
+			}
+			body{
+				margin:0;
+				padding: 0;
 			}
 			.content {
 				
