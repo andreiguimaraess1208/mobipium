@@ -285,7 +285,6 @@
 @media screen and (max-width: 700px) and (orientation: portrait) {
 	main{
 		overflow:auto;
-		margin-right: 0;
 	}
 	.content {
 		
@@ -351,7 +350,7 @@
 }
 
 @media screen and (max-width: 700px) and (orientation: landscape) {
-	body, main{
+	main{
 		overflow:auto;
 	}
 	.content {
