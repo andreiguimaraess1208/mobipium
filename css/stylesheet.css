@@ -281,9 +281,8 @@
 }
 			
 @media screen and (max-width: 700px) and (orientation: portrait) {
-	*{
+	html, body{
 		overflow-x: hidden;
-		overflow-y: hidden;
 	}
 	.content {
 		float: none;
