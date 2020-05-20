@@ -283,7 +283,7 @@
 			
 @media screen and (max-width: 700px) and (orientation: portrait) {
 	
-	.content {
+	.main, .content {
 		overflow-x: hidden;
 		float: none;
 		width: 100%;
@@ -349,7 +349,7 @@
 }
 
 @media screen and (max-width: 700px) and (orientation: landscape) {
-	html, body, main, content{
+	.main, .content{
 		overflow-x:hidden;
 	}
 	.content {
