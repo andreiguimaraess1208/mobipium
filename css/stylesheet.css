@@ -283,7 +283,7 @@
 }
 			
 @media screen and (max-width: 700px) and (orientation: portrait) {
-	html, main{
+	html, body, main, content, footer{
 		overflow-x: hidden;
 	}
 	.content {
@@ -352,7 +352,7 @@
 }
 
 @media screen and (max-width: 700px) and (orientation: landscape) {
-	html, main{
+	html, body, main, content, footer{
 		overflow-x:hidden;
 	}
 	.content {
