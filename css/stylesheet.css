@@ -147,7 +147,6 @@
 		.footer {
 			position: relative;
 			width: 100%;
-			background: rgb(255, 255, 255);
         }
         .copyright{
             position: absolute;
@@ -282,9 +281,10 @@
 }
 			
 @media screen and (max-width: 700px) and (orientation: portrait) {
-	
-	.main, .content {
-		overflow-x: hidden;
+	.main, .content{
+		overflow-x:hidden;
+	}
+	.content {
 		float: none;
 		width: 100%;
 	}
