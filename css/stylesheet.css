@@ -164,7 +164,136 @@
 		}
 
 										/*SCREEN ADJUSTS*/		
+@media screen and (max-width: 650px) and (orientation: portrait) {
+			
+			.content {
+				
+				float: none;
+				width: 100%;
+			}
+			.body-btn-front,.body-btn-back {
+				width: 173px;
+				height: 33px;
+				position: absolute;
+				top: 385px;
+				left: 26%;
+			}
+			.header-btn-front,
+			.header-btn-back {
+				width: 114px;
+				height: 22px;
+				position: absolute;
+				left: 33%;
+				
+			}
+			.header-text .header-mid-text {
+				font-size: 17px;
+				top:27%;
+			}
+			.header-text .header-top-text {
+				font-size: 11px;
+			}
+			.header-text .header-mid-btm-text{
+				font-size: 19px;
+			}
+			.header-text .header-btm-text{
+				font-size: 10px;
+			}
+			.content-text .content-top-text {
+				font-size: 12px;
+				top:40px;
+			}
+			.content-text .content-mid-text {
+				font-size: 13px;
+				top:330px;
+			}
+			.content-text .content-mid-btm-text {
+				font-size: 15px;
+				top:350px;
+			}
+			.content .keychain-img-1 {
+				top:100px;
+				left: 61%;
+			}
+			.content .keychain-img-2 {
+				top:95px;
+				left: 33%;
+			}
+			.content .keychain-img-3 {
+				top:103px;
+				left: 3%;
+			}
+			.copyright{
+				font-size: x-small;
+				top: 420px;
+			}
+		}
 
+		@media screen and (max-width: 650px) and (orientation: landscape) {
+		
+			.content {
+				
+				float: none;
+				width: 100%;
+			}
+			.body-btn-front,.body-btn-back {
+				width: 188px;
+				height: 36px;
+				position: absolute;
+				top: 385px;
+				left: 36%;
+			}
+			.header-btn-front,
+			.header-btn-back {
+				width: 149px;
+				height: 26px;
+				position: absolute;
+				left: 39%;
+				
+			}
+			.header-text .header-mid-text {
+				font-size: 23px;
+			}
+			.header-text .header-top-text {
+				font-size: 13px;
+			}
+			.header-text .header-mid-btm-text{
+				font-size: 25px;
+			}
+			.header-text .header-btm-text{
+				font-size: 14px;
+				width:20%;
+				left:40%;
+			}
+			.content-text .content-top-text {
+				font-size: 12px;
+				top:40px;
+			}
+			.content-text .content-mid-text {
+				font-size: 13px;
+				top:330px;
+			}
+			.content-text .content-mid-btm-text {
+				font-size: 15px;
+				top:350px;
+			}
+			.content .keychain-img-1 {
+				top:100px;
+				left: 68%;
+			}
+			.content .keychain-img-2 {
+				top:97px;
+				left: 40.5%;
+			}
+			.content .keychain-img-3 {
+				top:103px;
+				left: 10%;
+			}
+			.copyright{
+				font-size: x-small;
+				top: 420px;
+			}
+		}
 		@media screen and (max-width: 1280px) and (orientation: landscape) {
 		
 			.content {
@@ -282,133 +411,4 @@
 
 		}
 			
-		@media screen and (max-width: 768px) and (orientation: portrait) {
-			
-			.content {
-				
-				float: none;
-				width: 100%;
-			}
-			.body-btn-front,.body-btn-back {
-				width: 173px;
-				height: 33px;
-				position: absolute;
-				top: 385px;
-				left: 26%;
-			}
-			.header-btn-front,
-			.header-btn-back {
-				width: 114px;
-				height: 22px;
-				position: absolute;
-				left: 33%;
-				
-			}
-			.header-text .header-mid-text {
-				font-size: 17px;
-				top:27%;
-			}
-			.header-text .header-top-text {
-				font-size: 11px;
-			}
-			.header-text .header-mid-btm-text{
-				font-size: 19px;
-			}
-			.header-text .header-btm-text{
-				font-size: 10px;
-			}
-			.content-text .content-top-text {
-				font-size: 12px;
-				top:40px;
-			}
-			.content-text .content-mid-text {
-				font-size: 13px;
-				top:330px;
-			}
-			.content-text .content-mid-btm-text {
-				font-size: 15px;
-				top:350px;
-			}
-			.content .keychain-img-1 {
-				top:100px;
-				left: 61%;
-			}
-			.content .keychain-img-2 {
-				top:95px;
-				left: 33%;
-			}
-			.content .keychain-img-3 {
-				top:103px;
-				left: 3%;
-			}
-			.copyright{
-				font-size: x-small;
-				top: 420px;
-			}
-		}
-
-		@media screen and (max-width: 768px) and (orientation: landscape) {
 		
-			.content {
-				
-				float: none;
-				width: 100%;
-			}
-			.body-btn-front,.body-btn-back {
-				width: 188px;
-				height: 36px;
-				position: absolute;
-				top: 385px;
-				left: 36%;
-			}
-			.header-btn-front,
-			.header-btn-back {
-				width: 149px;
-				height: 26px;
-				position: absolute;
-				left: 39%;
-				
-			}
-			.header-text .header-mid-text {
-				font-size: 23px;
-			}
-			.header-text .header-top-text {
-				font-size: 13px;
-			}
-			.header-text .header-mid-btm-text{
-				font-size: 25px;
-			}
-			.header-text .header-btm-text{
-				font-size: 14px;
-				width:20%;
-				left:40%;
-			}
-			.content-text .content-top-text {
-				font-size: 12px;
-				top:40px;
-			}
-			.content-text .content-mid-text {
-				font-size: 13px;
-				top:330px;
-			}
-			.content-text .content-mid-btm-text {
-				font-size: 15px;
-				top:350px;
-			}
-			.content .keychain-img-1 {
-				top:100px;
-				left: 68%;
-			}
-			.content .keychain-img-2 {
-				top:97px;
-				left: 40.5%;
-			}
-			.content .keychain-img-3 {
-				top:103px;
-				left: 10%;
-			}
-			.copyright{
-				font-size: x-small;
-				top: 420px;
-			}
-		}
