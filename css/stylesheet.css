@@ -401,14 +401,17 @@
 	}
 	.content .keychain-img-1 {
 		top:100px;
+		margin-left:0px;
 		left: 68%;
 	}
 	.content .keychain-img-2 {
 		top:97px;
+		margin-left:0px;
 		left: 40.5%;
 	}
 	.content .keychain-img-3 {
 		top:103px;
+		margin-left:0px;
 		left: 10%;
 	}
 	.copyright{
